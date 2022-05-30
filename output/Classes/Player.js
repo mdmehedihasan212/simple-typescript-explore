@@ -4,6 +4,9 @@ export class Player {
         this.age = age;
         this.isHonest = isHonest;
     }
+    getAge() {
+        return this.age;
+    }
     paly() {
         console.log(`${this.name} is very ${this.isHonest}`);
     }
